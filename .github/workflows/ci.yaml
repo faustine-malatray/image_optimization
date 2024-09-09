@@ -7,3 +7,6 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - name: Image Actions
+        uses: calibreapp/image-actions@1.1.0
+            
